@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/whiteblue"
+    tools:context="tris.bookabhiforuser.AboutBookAbhi">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="BookAbhi is the easiest and smartest way to book your guidance partner in any field
+ Right Guidance/Advice in India is still lacking way behind. As Students, Individuals and Business owners- many people don’t get the timely and professional advice they needed because of complexity.
+ At Book Abhi We want to change things by making these Advisory/ Guidance / Consulting / Counseling Services simple and available to more people than ever before
+ Book Abhi is an on demand service for people to find, book and talk with trusted and qualified experts round the clock for online counseling, Advice, Consultancy etc.
+ Our platform securely connects people to qualified experts for online advice/counseling/consultancy through Call and Video Call
+ We are a marketplace and one stop shop of independent certified experts from fields like Education, Investment Advisory, Business Advisory, Life Management, Job/Internship counseling, Tutoring.
+"
+    android:textStyle="bold"
+    android:padding="10dp"
+    android:textSize="@dimen/font_size"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Term and Condition"
+        android:textAllCaps="false"/>
+</LinearLayout>

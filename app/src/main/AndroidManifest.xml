@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tris.bookabhiforuser"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CreateAccount"
+            android:label="Create Account"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Register"
+            android:label="Register"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".SendSms"
+            android:label="Sms Verification"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Welcome"
+            android:label="Welcome"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Home"
+            android:label="Home"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Education"
+            android:label="Education"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".InvestmentActivity"
+            android:label="Investments"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Taxation"
+            android:label="Taxation"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".LegalActivity"
+            android:label="Legal"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".TutorActivity"
+            android:label="Tutor"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Astrology"
+            android:label="Astrology"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".GstAcivity"
+            android:label="Good Service Tax"
+            android:parentActivityName=".Taxation"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".IncomeTaxActivity"
+            android:label="Income Tax"
+            android:parentActivityName=".Taxation"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".LifeMangement"
+            android:label="Life Management"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".DoctorActivity"
+            android:label="Book Doctor"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".SchoolGuidance"
+            android:label="School Guidance"
+            android:parentActivityName=".Education"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".CollegeGuidance"
+            android:label="College Guidance"
+            android:parentActivityName=".Education"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".CMAGiudance"
+            android:label="CMA Guidance"
+            android:parentActivityName=".Education"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".CAGuidance"
+            android:label="CA Guidance"
+            android:parentActivityName=".Education"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".CSGuidance"
+            android:label="CS Guidance"
+            android:parentActivityName=".Education"
+            android:theme="@style/AppTheme1" />
+        <activity android:name=".CivilGuidance" />
+        <activity
+            android:name=".LawGuidance"
+            android:label="Law Guidance"
+            android:parentActivityName=".Education"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".MBAGuidance"
+            android:label="MBA Guidance"
+            android:parentActivityName=".Education"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".MedicalGuidance"
+            android:label="Medical Guidance"
+            android:parentActivityName=".Education"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".EngineeringGuidance"
+            android:label="Enigneering Guidance"
+            android:parentActivityName=".Education"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".NurseryClass"
+            android:label="Nursery/LKG/UKG"
+            android:parentActivityName=".TutorActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Class1to5"
+            android:label="Class 1st to 5th"
+            android:parentActivityName=".TutorActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Class6to10"
+            android:label="Class 6th to 10th"
+            android:parentActivityName=".TutorActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Class11to12"
+            android:label="Class 11th to 12th"
+            android:parentActivityName=".TutorActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".EnglishGuidance"
+            android:label="English Guidance"
+            android:parentActivityName=".TutorActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".MathmaticsGuidance"
+            android:label="Mathmatics Guidance"
+            android:parentActivityName=".TutorActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".ScienceGuidance"
+            android:label="Science Guidance"
+            android:parentActivityName=".TutorActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".DanceGuidance"
+            android:label="Dance Guidance"
+            android:parentActivityName=".TutorActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".SportsGuidance"
+            android:label="Sports Guidance"
+            android:parentActivityName=".TutorActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".ComputerGuidance"
+            android:label="Computer Guidance"
+            android:parentActivityName=".TutorActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".ForeignDegreeGuidance"
+            android:label="Foreign Guidance"
+            android:parentActivityName=".TutorActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".YogaGuidance"
+            android:label="Yoga Guidance"
+            android:parentActivityName=".TutorActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".PhysiotherapistGuidance"
+            android:label="Physiotherapist Guidance"
+            android:parentActivityName=".TutorActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".FilterActivty"
+            android:label="Filter"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".BookActivity"
+            android:label="Booking "
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".ProceedDetails"
+            android:label="Details"
+            android:parentActivityName=".BookActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Payment"
+            android:label="Payments"
+            android:parentActivityName=".ProceedDetails"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".CivilMatters"
+            android:label="Civil Matters"
+            android:parentActivityName=".LegalActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".CriminalMatters"
+            android:label="Criminal Matters"
+            android:parentActivityName=".LegalActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".FamilyMatters"
+            android:label="Family Matters"
+            android:parentActivityName=".LegalActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".MatrimonialMatters"
+            android:label="Matrimonial Matters"
+            android:parentActivityName=".LegalActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".LaborMatters"
+            android:label="Labor Matters"
+            android:parentActivityName=".LegalActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".PatentLow"
+            android:label="Patent Law"
+            android:parentActivityName=".LegalActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".LaterBooking"
+            android:label="later Booking"
+            android:parentActivityName=".BookActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".AvailableNow"
+            android:label="Available Now"
+            android:parentActivityName=".BookActivity"
+            android:theme="@style/AppTheme1" />
+
+        <activity android:name=".MyBooking" />
+
+        <activity android:name=".UserHelp"
+            android:theme="@style/AppTheme1"
+            android:label="User Help"
+            android:parentActivityName=".MyBooking"/>
+
+        <activity android:name=".Account_Profile"
+            android:theme="@style/AppTheme1"
+            android:label="Profile"
+            />
+
+        <activity android:name=".MyWallet"
+            android:theme="@style/AppTheme1"
+            android:label="My Wallet"
+            android:parentActivityName=".Account_Profile"/>
+
+        <activity android:name=".Suggestion"
+            android:theme="@style/AppTheme1"
+            android:label="Suggestions"
+            android:parentActivityName=".Account_Profile"/>
+
+        <activity android:name=".RateBookAbhi"
+            android:theme="@style/AppTheme1"
+            android:label="Rate Book Abhi"
+            android:parentActivityName=".Account_Profile"/>
+
+        <activity android:name=".CancelActivity"
+            android:theme="@style/AppTheme1"
+            android:label="Cancel"
+            android:parentActivityName=".MyBooking"/>
+
+        <activity android:name=".HelpCenterActivity"
+            android:theme="@style/AppTheme1"
+            android:label="Help Center"
+            android:parentActivityName=".Account_Profile"/>
+
+        <activity android:name=".AboutBookAbhi"
+            android:theme="@style/AppTheme1"
+            android:label="About Book Abhi"
+            android:parentActivityName=".Account_Profile"/>
+
+        <activity android:name=".IssueWithPreviousAppointment"
+            android:theme="@style/AppTheme1"
+            android:label="Issue With Previous Appointmnet"
+            android:parentActivityName=".HelpCenterActivity"/>
+
+        <activity android:name=".HowItsWork"
+            android:theme="@style/AppTheme1"
+            android:label="How Its Work"
+            android:parentActivityName=".HelpCenterActivity"/>
+
+        <activity android:name=".ContactBookAhi"
+            android:theme="@style/AppTheme1"
+            android:label="Contact Abhi"
+            android:parentActivityName=".HelpCenterActivity"/>
+
+        <activity android:name=".HelpActivity"
+            android:theme="@style/AppTheme1"
+            android:label="Help"
+            android:parentActivityName=".IssueWithPreviousAppointment"></activity>
+    </application>
+
+</manifest>

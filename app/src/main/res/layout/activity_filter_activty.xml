@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/whiteblue"
+    tools:context="tris.bookabhiforuser.FilterActivty">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/logo"
+            android:layout_marginLeft="@dimen/font_size"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Filters"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textSize="@dimen/font_size"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#0C0C0C"></View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fees"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="@dimen/font_size"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#0C0C0C"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Low to High"
+            android:gravity="center"
+            android:padding="5dp"
+            android:id="@+id/lowtohigh"
+            android:textStyle="bold"
+            android:textSize="@dimen/font_size"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="High to low"
+            android:padding="5dp"
+            android:id="@+id/hightolow"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/font_size"/>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#0C0C0C"></View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Availability"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="@dimen/font_size"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#0C0C0C"></View>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Available Now"
+        android:id="@+id/availablenow"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="@dimen/font_size"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Available Today"
+        android:padding="5dp"
+        android:id="@+id/availabletoday"
+        android:gravity="center"
+        android:textSize="@dimen/font_size"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Available in next 7 days"
+        android:gravity="center"
+        android:padding="5dp"
+        android:id="@+id/availableinnext7days"
+        android:textSize="@dimen/font_size"
+        android:textStyle="bold"/>
+
+</LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#0C0C0C"></View>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Gender"
+        android:textStyle="bold"
+        android:textSize="@dimen/font_size"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#0C0C0C"></View>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Male"
+        android:id="@+id/male"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="@dimen/font_size"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Female"
+        android:padding="5dp"
+        android:id="@+id/female"
+        android:gravity="center"
+        android:textSize="@dimen/font_size"
+        android:textStyle="bold"/>
+
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#0C0C0C"></View>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Language"
+    android:padding="10dp"
+    android:textStyle="bold"
+    android:textSize="@dimen/font_size"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#0C0C0C"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="English"
+            android:id="@+id/english"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textSize="@dimen/font_size"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hindi"
+            android:padding="5dp"
+            android:id="@+id/hindi"
+            android:gravity="center"
+            android:textSize="@dimen/font_size"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Punjabhi"
+            android:gravity="center"
+            android:padding="5dp"
+            android:id="@+id/punjabhi"
+            android:textSize="@dimen/font_size"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#0C0C0C"></View>
+
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

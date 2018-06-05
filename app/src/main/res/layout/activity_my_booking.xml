@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/whiteblue"
+    tools:context="tris.bookabhiforuser.MyBooking">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="@color/whiteblue"
+        >
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/logo"
+                android:padding="10dp"
+                android:id="@+id/expertimage"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Book Abhi"
+                    android:id="@+id/expertname"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="@dimen/font_size"
+                   />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c0c0c0"/>
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="My Bookings"
+            android:textStyle="bold"
+            android:textSize="@dimen/font_size"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:padding="5dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="@dimen/font_size1"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Query Type"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/font_size1"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mode"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/font_size1"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Probable Time"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp"
+                android:textSize="@dimen/font_size1"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp"
+                android:textSize="@dimen/font_size1"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vinod"
+                android:padding="5dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="@dimen/fab_margin"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:text="Time Management"
+                android:layout_marginLeft="8dp"
+                android:padding="5dp"
+                android:textSize="@dimen/fab_margin"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Call"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp"
+                android:textSize="@dimen/fab_margin"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7:00 to 9:00 PM"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/fab_margin"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:text="Cancel"
+                android:textAllCaps="false"
+                android:id="@+id/cancel1"
+                android:padding="5dp"
+                android:textSize="@dimen/fab_margin"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vinod"
+                android:padding="5dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="@dimen/fab_margin"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:text="Time Management"
+                android:layout_marginLeft="8dp"
+                android:padding="5dp"
+                android:textSize="@dimen/fab_margin"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Call"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp"
+                android:textSize="@dimen/fab_margin"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7:00 to 9:00 PM"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/fab_margin"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:text="Cancel"
+                android:id="@+id/cance22"
+                android:textAllCaps="false"
+                android:padding="5dp"
+                android:textSize="@dimen/fab_margin"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rama"
+                android:padding="5dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="@dimen/fab_margin"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:text="Subject Specific"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp"
+                android:textSize="@dimen/fab_margin"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:text="Vedio Call"
+                android:padding="4dp"
+                android:layout_marginLeft="6dp"
+                android:textSize="@dimen/fab_margin"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7:00 to 9:00 PM"
+                android:padding="5dp"
+                android:textSize="@dimen/fab_margin"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:text="cancel"
+                android:id="@+id/cancel33"
+                android:textAllCaps="false"
+                android:padding="5dp"
+                android:textSize="@dimen/fab_margin"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Previous Appointment"
+                android:padding="10dp"
+                android:textSize="@dimen/font_size2"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mohina"
+                android:padding="5dp"
+                android:textSize="@dimen/fab_margin"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:text="Time Management"
+                android:layout_marginLeft="8dp"
+                android:padding="5dp"
+                android:textSize="@dimen/fab_margin"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="call"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/fab_margin"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7:00 to 9:00 PM"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/fab_margin"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Help"
+                android:id="@+id/helpUser"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/font_size"
+                android:textStyle="bold"
+                />
+
+
+
+        </LinearLayout>
+<!--
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mohina"
+                android:padding="5dp"
+                android:textSize="@dimen/fab_margin"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:text="Time Management"
+                android:layout_marginLeft="8dp"
+                android:padding="5dp"
+                android:textSize="@dimen/fab_margin"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="call"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/fab_margin"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7:00 to 9:00 PM"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/fab_margin"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Help"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/fab_margin"
+                android:textStyle="bold"
+                />
+
+
+
+        </LinearLayout>
+-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/box">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Home"
+                android:background="#ffffff"
+                android:textAllCaps="false"
+                android:padding="10dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/mybooking"
+                android:background="#ffffff"
+                android:text="My Booking"
+                android:padding="10dp"
+                android:textAllCaps="false"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Account"
+                android:id="@+id/account"
+                android:background="#ffffff"
+                android:padding="10dp"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

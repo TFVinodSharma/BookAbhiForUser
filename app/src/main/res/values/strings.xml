@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">BookAbhiForUser</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="content">Guide &amp; earn</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password </string>
+    <string name="action_sign_in">SignIn</string>
+    <string name="action_forgetPassword">Forget Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="note">Make sure you have mentioned your skills properly . No further changes are possible</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="Name">
+        <item>Vinod</item>
+        <item>Rajan</item>
+        <item>Kumar</item>
+        <item>Rohit</item>
+
+    </string-array>
+
+    <string-array name="Rank">
+        <item>investment guru</item>
+        <item>investment guru</item>
+        <item>investment guru</item>
+        <item>investment guru</item>
+
+    </string-array>
+    <string-array name="Work">
+        <item>all type of work</item>
+        <item>all type of work</item>
+        <item>all type of work</item>
+        <item>all type of work</item>
+
+    </string-array>
+    <string-array name="Rating">
+        <item>4.8 Rating</item>
+        <item>4.8 Rating</item>
+        <item>4.8 Rating</item>
+        <item>4.8 Rating</item>
+
+    </string-array>
+    <string-array name="Reviews">
+        <item>24 Review</item>
+        <item>24 Review</item>
+        <item>24 Review</item>
+        <item>24 Review</item>
+
+    </string-array>
+    <string-array name="Rupees">
+        <item>Rs 500</item>
+        <item>Rs 500</item>
+        <item>Rs 500</item>
+        <item>Rs 500</item>
+
+    </string-array>
+
+
+
+</resources>
